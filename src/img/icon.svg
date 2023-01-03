@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 172.43 361">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_7);
+      }
+
+      .cls-2 {
+        fill: url(#_Безымянный_градиент_4-2);
+      }
+
+      .cls-3 {
+        fill: url(#_Безымянный_градиент_2);
+      }
+
+      .cls-4 {
+        fill: url(#_Безымянный_градиент_4);
+      }
+
+      .cls-5 {
+        fill: url(#_Безымянный_градиент_3);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_4" data-name="Безымянный градиент 4" x1="85.62" y1="79.85" x2="172.28" y2="171.84" gradientTransform="translate(0 361.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9b26ff"/>
+      <stop offset="1" stop-color="#2847ff"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_2" data-name="Безымянный градиент 2" x1="-13.69" y1="31.32" x2="104.55" y2="145.22" gradientTransform="translate(0 361.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2a46ff"/>
+      <stop offset="1" stop-color="#9b26ff"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_3" data-name="Безымянный градиент 3" x1="-8.07" y1="169.79" x2="172.1" y2="169.79" gradientTransform="translate(0 361.89) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#481079"/>
+      <stop offset="1" stop-color="#101d92"/>
+    </linearGradient>
+    <linearGradient id="_Безымянный_градиент_4-2" data-name="Безымянный градиент 4" x1="83.03" y1="277.62" x2="172.88" y2="185.5" xlink:href="#_Безымянный_градиент_4"/>
+    <linearGradient id="_Безымянный_градиент_7" data-name="Безымянный градиент 7" x1="-4.36" y1="277.62" x2="85.49" y2="185.5" gradientTransform="translate(87.39 361.89) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2847ff"/>
+      <stop offset="1" stop-color="#9b26ff"/>
+    </linearGradient>
+  </defs>
+  <g id="_Слой_1-2" data-name="Слой 1">
+    <path class="cls-4" d="M172.1,189.57l-84.7,171.43V199.32l84.7-9.75Z"/>
+    <path class="cls-3" d="M87.39,361L0,189.57l87.39,9.75v161.68Z"/>
+    <path class="cls-5" d="M172.43,189.57l-84.7,10.08L0,189.57l87.73-5.04,84.7,5.04Z"/>
+    <path class="cls-2" d="M172.1,171.43L87.39,0V177.48l84.7-6.05Z"/>
+    <path class="cls-1" d="M87.39,177.48V0S2.69,171.43,2.69,171.43l84.7,6.05Z"/>
+  </g>
+</svg>
