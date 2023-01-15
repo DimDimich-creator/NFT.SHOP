@@ -59,7 +59,7 @@ body {
 .header__logo {
     color: inherit;
     font-family: "Poppins";
-    font-weight: 600;
+    font-weight: 900;
     font-size: 36px;
     margin: 0 0 0 110px;
 }
@@ -72,18 +72,18 @@ body {
     margin: 0 0 0 45%;
 }
 
-.menu {}
-
 .menu__list {
     display: flex;
+    gap: 43px;
     /* flex-wrap: wrap; */
 }
 
 .menu__item {}
 
-.menu__item:not(:last-child) {
+
+/* .menu__item:not(:last-child) {
     margin: 0 43px 0 0;
-}
+} */
 
 .menu__link {
     color: inherit;
@@ -101,10 +101,6 @@ body {
 
 
 /* Основа */
-
-.main {}
-
-.page__main-block {}
 
 .main-block {
     position: relative;
@@ -130,7 +126,7 @@ body {
     font-size: 72px;
     line-height: 80px;
     margin-bottom: 0;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 .main-block__title span {
@@ -145,10 +141,6 @@ body {
     font-size: 20px;
 }
 
-.main-block__img {}
-
-.header__img {}
-
 .main-block__footer {
     display: flex;
     margin: 150px 0 0 0;
@@ -156,9 +148,8 @@ body {
     gap: 15px;
 }
 
-.footer__img {}
 
-.footer_subtitle {}
+/*  */
 
 
 /* Подвал */
