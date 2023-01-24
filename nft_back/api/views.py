@@ -14,10 +14,16 @@ class GetNftCardView(APIView):
     #   image_data = f.read()
     # return Response(image_data, content_type="image/png")
     limit = request.GET.get('limit')
+    tag = request.GET.get('tag')
+    cards = NftCard.objects.filter(tag=tag)
+    
+    if tag == None:
+      cards = NftCard.objects.all()
+      
     if limit == None:
-      data = [self.serializer_class(card).data for card in NftCard.objects.all()]
+      data = [self.serializer_class(card).data for card in cards]
       return Response(data, status=status.HTTP_200_OK)
     if not limit.isdigit():
       return Response({'Bad request': 'Limit parameter must be integer'}, status=status.HTTP_400_BAD_REQUEST)
-    data = list(self.serializer_class(card).data for card in NftCard.objects.all()[:int(limit)])
+    data = list(self.serializer_class(card).data for card in cards[:int(limit)])
     return Response(data, status=status.HTTP_200_OK)
