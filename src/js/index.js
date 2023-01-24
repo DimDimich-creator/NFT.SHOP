@@ -1,4 +1,4 @@
-const url = "http://45.10.42.11:8000/api/get-nft?format=json";
+const url = "http://45.10.42.11:8001/api/get-nft?format=json";
 
 let data;
 
