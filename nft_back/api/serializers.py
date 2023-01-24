@@ -5,4 +5,4 @@ from .models import NftCard
 class NftCardSerializer(serializers.ModelSerializer):
   class Meta:
     model = NftCard
-    fields = ('text', 'subtext', 'image')
+    fields = ('text', 'subtext', 'tag', 'image')
