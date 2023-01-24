@@ -15,7 +15,7 @@ setTimeout(() => {
     for (let i = 0; i < data.length; i++) {
         cardItem += `
         <div class="collection__item">
-            <img class="collection__img" src="http://45.10.42.11:8000/${data[i].image}" alt="" />
+            <img class="collection__img" src="http://45.10.42.11:8001/${data[i].image}" alt="" />
             <h3 class="collection__title">${data[i].text}</h3>
             <h4 class="collection__subtitle">${data[i].subtext}</h4>
         </div>`;
